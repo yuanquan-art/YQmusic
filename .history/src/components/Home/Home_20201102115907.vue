@@ -7,11 +7,6 @@
                 </el-col>
                 <el-col :span="6">
                     <span class="el-icon-arrow-left zuojiantou"></span>
-                    <span class="el-icon-arrow-right youjiantou"></span>
-                    <!-- 搜索框 -->
-                    <el-input placeholder="搜索" >
-                        <span class="el-icon-search search"></span>
-                    </el-input>
                 </el-col>
             </el-row>
         </div>
@@ -41,28 +36,4 @@ export default {
   line-height: 30px;
   text-align: center;
 }
-.youjiantou{
-  margin-top: 25px;
-  margin-left: 10px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%; 
-  background-color: #e63f3f;
-  color: #ed6565;
-  line-height: 30px;
-  text-align: center;
-}
-.el-input{
-    width: 200px;
-    height: 40px;
-    margin-left: 30px;
-}
-.search{
-    width: 17px;
-    height: 20px;
-    color: #f9d8d8;
-    margin-left: 10px;
-    line-height: 20px;
-}
-
 </style>

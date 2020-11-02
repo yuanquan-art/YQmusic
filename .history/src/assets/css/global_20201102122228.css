@@ -5,6 +5,5 @@ body{
 .el-input__inner{
     border-radius: 20px !important;
     background-color: #e13e3e !important;
-    border: none !important;
-    color: #e76464 !important;
+    
 }

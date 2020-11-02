@@ -60,9 +60,6 @@ export default {
 .search{
     width: 17px;
     height: 20px;
-    color: #f9d8d8;
-    margin-left: 10px;
-    line-height: 20px;
 }
 
 </style>

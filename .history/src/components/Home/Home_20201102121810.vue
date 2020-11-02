@@ -9,9 +9,7 @@
                     <span class="el-icon-arrow-left zuojiantou"></span>
                     <span class="el-icon-arrow-right youjiantou"></span>
                     <!-- 搜索框 -->
-                    <el-input placeholder="搜索" >
-                        <span class="el-icon-search search"></span>
-                    </el-input>
+                    <el-input placeholder="搜索"></el-input>
                 </el-col>
             </el-row>
         </div>
@@ -53,16 +51,11 @@ export default {
   text-align: center;
 }
 .el-input{
-    width: 200px;
+  
     height: 40px;
     margin-left: 30px;
-}
-.search{
-    width: 17px;
-    height: 20px;
-    color: #f9d8d8;
-    margin-left: 10px;
-    line-height: 20px;
+    border-radius: 20px;
+    background-color: #e13e3e;
 }
 
 </style>

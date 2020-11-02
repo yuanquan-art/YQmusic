@@ -62,7 +62,6 @@ export default {
     height: 20px;
     color: #f9d8d8;
     margin-left: 10px;
-    line-height: 20px;
 }
 
 </style>
