@@ -9,6 +9,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
-
+.index{
+    width: 100%;
+    height: 100px;
+    background-color: #DB2C1F;
+}
 </style>
