@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.el-input__inner{
+    border-radius: 20px !important;
+    background-color: #e13e3e !important;
+    border: none !important;
+    color: #e76464 !important;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 2174572 */
+    src: url('//at.alicdn.com/t/font_2174572_3alyx2a46ay.eot');
+    src: url('//at.alicdn.com/t/font_2174572_3alyx2a46ay.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2174572_3alyx2a46ay.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2174572_3alyx2a46ay.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2174572_3alyx2a46ay.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2174572_3alyx2a46ay.svg#iconfont') format('svg');
+  }
