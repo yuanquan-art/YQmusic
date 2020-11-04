@@ -32,7 +32,6 @@ body{
 .el-carousel__item.el-carousel__item--card{
     width: 675px;
     height: 245px !important;
-}
-.is-active{
- 
+    border-radius: 10px;
+    overflow: hidden;
 }

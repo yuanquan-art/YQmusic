@@ -10,10 +10,9 @@
           </el-carousel-item>
         </el-carousel>
         <!-- 推荐歌单 -->
-         <span class="tuijianMusic">推荐歌单</span>
+        <div>
+          <span class="tuijianMusic">推荐歌单</span>
           <span class="el-icon-arrow-right"></span>
-        <div class="tjmusic">
-         
           <div
             class="musicList"
             v-for="item in tuijianMusicList"
@@ -57,7 +56,7 @@ export default {
     },
     // 获取推荐歌单
     async getTuijianMusicList() {
-      const { data: res } = await this.$axios.get("/personalized?limit=10");
+      const { data: res } = await this.$axios.get("/personalized");
       this.tuijianMusicList = res.result;
       console.log(this.tuijianMusicList);
     },
@@ -77,17 +76,16 @@ export default {
   margin-left: 5px;
 }
 .musicList {
-  width: 212px;
-  height: 255px;
-  margin-top: 10px;
-  margin-right: 20px;
+  width: 260px;
+  height: 310px;
+  background-color: #ccc;
+  margin-top: 5px;
 }
 .musicList img {
-  width: 211px;
-  height: 200px;
+  width: 256px;
+  height: 256px;
 }
-.tjmusic{
+.el-carousel {
   display: flex;
-  flex-wrap: wrap;
 }
 </style>

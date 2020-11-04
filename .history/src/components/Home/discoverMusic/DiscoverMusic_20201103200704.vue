@@ -57,7 +57,7 @@ export default {
     },
     // 获取推荐歌单
     async getTuijianMusicList() {
-      const { data: res } = await this.$axios.get("/personalized?limit=10");
+      const { data: res } = await this.$axios.get("/personalized");
       this.tuijianMusicList = res.result;
       console.log(this.tuijianMusicList);
     },
@@ -77,13 +77,14 @@ export default {
   margin-left: 5px;
 }
 .musicList {
-  width: 212px;
-  height: 255px;
-  margin-top: 10px;
-  margin-right: 20px;
+  width: 220px;
+  height: 310px;
+  background-color: #ccc;
+  margin-top: 5px;
+  margin-right: 10px;
 }
 .musicList img {
-  width: 211px;
+  width: 200px;
   height: 200px;
 }
 .tjmusic{

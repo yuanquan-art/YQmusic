@@ -13,26 +13,12 @@ body{
     line-height: 40px !important;
 }
 .el-tabs__nav-wrap::after{
-    bottom: none;
-}
-.el-tabs__item{
-    font-size: 20px !important;
-}
-.el-tabs__item:hover{
-    color: #000 !important;
+  bottom: none;
 }
 .el-tabs__item.is-active{
     font-weight: 900;
     color: #373737 !important;
 }
 .el-tabs__active-bar{
-    background-color: #ec4141 !important;
-    height: 3px !important;
-}
-.el-carousel__item.el-carousel__item--card{
-    width: 675px;
-    height: 245px !important;
-}
-.is-active{
- 
+    background-color: #ec4141;
 }

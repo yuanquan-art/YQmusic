@@ -29,10 +29,3 @@ body{
     background-color: #ec4141 !important;
     height: 3px !important;
 }
-.el-carousel__item.el-carousel__item--card{
-    width: 675px;
-    height: 245px !important;
-}
-.is-active{
- 
-}

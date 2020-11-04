@@ -8,10 +8,8 @@ import './assets/css/iconfont.css'
 
 
 import axios from 'axios'
-axios.defaults.baseURL = 'https://autumnfish.cn/'
-axios.defaults.withCredentials = true;
 Vue.prototype.$axios = axios;
-
+axios.defaults.withCredentials = true;
 
 Vue.config.productionTip = false
 

@@ -57,7 +57,7 @@ export default {
     },
     // 获取推荐歌单
     async getTuijianMusicList() {
-      const { data: res } = await this.$axios.get("/personalized?limit=10");
+      const { data: res } = await this.$axios.get("/personalized");
       this.tuijianMusicList = res.result;
       console.log(this.tuijianMusicList);
     },
